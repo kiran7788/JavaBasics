@@ -13,6 +13,7 @@ public class Binry {
             loopExecution++;
             
             if (arr[mid]==n){
+                System.out.println(loopExecution);
                 return mid;
             }
 
@@ -26,6 +27,8 @@ public class Binry {
             }
             
         }
+        System.out.println(loopExecution);
+        return-1;
         }
         
     
