@@ -5,10 +5,10 @@ public class Ascds {
             int[] arr = {34,56,78,65,43,45,32}; 
             int[] aseRes = asc(arr, 0, 0); 
             
-            System.out.println("Asc"); 
+            System.out.print("Asc"); 
             print(aseRes); 
             int[] descRes = desc(arr, 0, 0); 
-            System.out.println("Desc");
+            System.out.print("Desc");
             print(descRes);
           
         
@@ -18,7 +18,7 @@ public class Ascds {
         
             for (int i = 0; i < arr.length; i++) {
             
-                System.out.println(arr[i]);
+                System.out.print(arr[i]+" ");
             
             }
         
@@ -82,6 +82,6 @@ public class Ascds {
                 desc(arr, i,j);
 
             }
-            return arr;
+            return arr; 
         }
 }

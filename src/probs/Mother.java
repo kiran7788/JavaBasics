@@ -6,7 +6,7 @@ package probs;
 public interface Mother {
 
     
-Mother {
+int Mother {
     public void name () ;
 }
 }

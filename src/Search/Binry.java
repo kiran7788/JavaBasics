@@ -14,7 +14,7 @@ public class Binry {
             
             if (arr[mid]==n){
                 System.out.println(loopExecution);
-                return mid;
+            
             }
 
             else if (arr[mid]>n) {
