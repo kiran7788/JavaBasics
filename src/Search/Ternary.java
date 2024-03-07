@@ -8,7 +8,7 @@ public class Ternary {
         int end = arr.length-i;
         int loopExecution=0;
         
-        while (start<=end);{
+        while (start<=end){
             int mid1 =(end + start)/3;
             int mid2 =(end + start)/3;
             
